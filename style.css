@@ -129,3 +129,59 @@ display: block;
 /* card 2 starts here */
 
 
+.profile-card-2 .card-img-block{
+  width: 100%;
+  float: left;
+  height: 150px;
+  overflow: hidden;
+}
+.profile-card-2 .card-body{
+  position: relative;
+}
+
+.profile-card-2 .profile{
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top:-42px;
+  transform: translate(-50%,0%);
+  max-width: 75px;
+}
+
+.profile-card-2 h5{
+
+  font-weight: 800;
+  color: #019031;
+
+}
+
+.profile-card-2 .card-text{
+
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.profile-card-2 i{
+
+  display: inline-block;
+  font-size: 16px;
+  color: #019031;
+  text-align: center;
+  width:30px ;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #019031 ;
+  padding: 5px;
+  margin: 0 5px;
+
+
+}
+
+
+.profile-card-2 i:hover{
+
+  background: #019031;
+  color: #fff;
+  text-decoration: none;
+}
